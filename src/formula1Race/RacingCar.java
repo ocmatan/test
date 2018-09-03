@@ -16,6 +16,7 @@ public class RacingCar implements Runnable {
     }
 
     public void run(){
+        System.out.println("Racing car start racing : " + name);
         while( LocalDateTime.now().isBefore(Race.startTime.plusSeconds(1)) ){
             if(shouldGoIntoStopPit()){
                 if(this.pitStop.tryToLockPitStop()){

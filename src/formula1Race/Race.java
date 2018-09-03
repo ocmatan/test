@@ -34,7 +34,7 @@ public class Race {
         }
         try{
             executorService.invokeAll(tasks);
-            Thread.sleep(20000);
+            Thread.sleep(2000);
             executorService.shutdownNow();
             this.scores = getRaceScores();
 
