@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="matan_race:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/matan_race_jar</output-path>
+    <root id="archive" name="matan_race.jar">
+      <element id="module-output" name="matan_race" />
+    </root>
+  </artifact>
+</component>
